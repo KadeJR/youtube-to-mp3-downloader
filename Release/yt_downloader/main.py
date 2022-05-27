@@ -105,7 +105,7 @@ def download_playlist():
             print(video.title + " has been succesfully downloaded")
         except:
             print("there was an error in downloading " + video.title)
-    print("playlist" + playlist.title + " has been succesfully downloaded")
+    print("playlist " + playlist.title + " has been succesfully downloaded")
 
 def start_menu():
     clear()
